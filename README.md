@@ -1,5 +1,16 @@
 # Sistema de Inventario - Apresentacao
 
+![Status](https://img.shields.io/badge/status-concluido-84A98C)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## Preview
+
+> 
+> Exemplo:
+> ![Preview](Sistema_Inventario/assets/images/Gestor_Inventario.gif)
+
 ## Visao geral
 
 Projeto web desenvolvido em PHP e MySQL para controle de estoque, com autenticacao por perfil, dashboard analitico, auditoria de acoes e assistente virtual integrado.

@@ -12,6 +12,28 @@ Aplicacao web em PHP + MySQL para gestao de estoque, com login por perfil, dashb
 - Timeout de sessao por inatividade com logout automatico e limpeza de cookie
 - Exibicao do perfil logado e contador de tempo de sessao no topo
 
+## Desafio Base
+
+> 1. Módulos do Sistema
+>
+> - Tela de Login:
+Campos: E-mail e Senha.
+Design: Centralizado, seguindo a paleta de cores (pode ser a Professional Tech ou Soft Nature).
+> - Dashboard Principal (Tabela):
+Cabeçalho com resumo: "Total de Itens", "Itens com Estoque Baixo", "Valor Total em Estoque".
+Tabela de Produtos: Nome, Categoria, Preço, Quantidade.
+> - Ação Visual: Destacar em vermelho suave as linhas com menos de 5 unidades.
+> - Formulário de Cadastro/Edição:
+Pode ser uma página nova ou um Modal (fica muito moderno no portfólio).
+Campos: Nome, Categoria (Dropdown/Select), Preço e Quantidade Inicial.
+> 
+> 2.  Funcionalidades de "Cliente"
+Segurança: Se eu não estiver logado e tentar acessar painel.php, o sistema deve me chutar de volta para o login.php.
+Filtro Inteligente: Um campo de busca ou botões de categoria (ex: [Tudo] [Mouses] [Teclados]).
+Histórico de Cadastro: Uma coluna na tabela mostrando a data em que o produto foi adicionado (o PHP pega isso direto do banco).
+Logout: Um botão visível para eu encerrar minha sessão com segurança.
+
+
 ### Dashboard
 
 - Cards de resumo:
@@ -159,3 +181,4 @@ Se ocorrer erro could not find driver:
 
 - Habilite pdo_mysql no php.ini
 - Reinicie Apache e terminal
+
